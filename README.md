@@ -3,7 +3,7 @@
 > *From brain trajectories to LLM reasoning paths: a single number that tells you whether your system is anchored or about to slip.*
 
 <p align="center">
-  <img src="docs/figures/concept.svg" alt="Two trajectories diverging in phase space" width="720"/>
+  <img src="docs/images/lyapunov_concept.svg" alt="Two trajectories diverging in phase space" width="720"/>
 </p>
 
 ## What this is
