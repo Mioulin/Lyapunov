@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 200" width="400" height="200" xmlns="http://www.w3.org/2000/svg" font-family="Arial">
+  <rect width="100%" height="100%" fill="#F9FAFB"/>
+  <text x="200" y="25" text-anchor="middle" font-size="18" fill="#000">Lyapunov Exponent: Trajectory Divergence</text>
+  <!-- Initial points -->
+  <circle cx="50" cy="160" r="5" fill="#2C7BB6"/>
+  <circle cx="60" cy="160" r="5" fill="#D7191C"/>
+  <text x="50" y="178" font-size="12" text-anchor="middle" fill="#2C7BB6">x₀</text>
+  <text x="60" y="178" font-size="12" text-anchor="middle" fill="#D7191C">x₀ + δ</text>
+
+  <!-- Blue trajectory (original) -->
+  <polyline fill="none" stroke="#2C7BB6" stroke-width="3" points="50,160 100,140 150,110 210,80 270,55 340,30"/>
+  <!-- Red trajectory (perturbed) -->
+  <polyline fill="none" stroke="#D7191C" stroke-width="3" points="60,160 110,145 160,125 220,110 280,100 350,95"/>
+  <!-- Dotted lines showing initial distance -->
+  <line x1="50" y1="160" x2="60" y2="160" stroke="#bbb" stroke-width="2" stroke-dasharray="3,2"/>
+  <line x1="340" y1="30" x2="350" y2="95" stroke="#bbb" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="60" y="80" font-size="13" fill="#9b2226" text-anchor="start">Divergence over time →</text>
+  <text x="60" y="192" font-size="12" fill="#444">Close start, exponential separation</text>
+</svg>
